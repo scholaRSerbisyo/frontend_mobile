@@ -30,7 +30,7 @@ example - 192.168.1.139
 
 use it to the constants
 
-Locate the `constants.tsx` file from the constants folder:
+Locate and Modify the `constants.tsx` file from the constants folder:
 
 ```constants.tsx
 const API_URL = {wifi or LAN ip-address}:8000/api;
