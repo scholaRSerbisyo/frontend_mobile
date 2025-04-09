@@ -25,10 +25,17 @@ npx expo start
 
 ### 🌍 Environment Variables
 
-Create a `.env` file:
+Locate your wifi or LAN IP address for the API_URL
+example - 192.168.1.139
 
-```env
-ENV=http://localhost:8000/api
+use it to the constants
+
+Locate the `constants.tsx` file from the constants folder:
+
+```constants.tsx
+const API_URL = {wifi or LAN ip-address}:8000/api;
+
+export default API_URL;
 ```
 
 ---
