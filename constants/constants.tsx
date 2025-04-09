@@ -1,3 +1,3 @@
-const API_URL = process.env.ENV;
+const API_URL = "{ip-address}:8000/api";
 
 export default API_URL;
